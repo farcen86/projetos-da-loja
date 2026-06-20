@@ -73,7 +73,7 @@ main{
 }
 
 /* ==Ofertas== */
-.ofertas {
+.ofertas{
   display: flex;
   gap: 16px;
   flex-wrap: wrap;
@@ -82,7 +82,7 @@ main{
 .ofertas article {
   background: white;
   flex: 1;
-  min-width: 180px;
+  min-width: 120px;
   border: 1px solid #e2e8f0;
   border-radius: 12px;
   display: flex;
@@ -90,23 +90,20 @@ main{
   overflow: hidden;
 }
 
-.ofertas .oferta-imagem {
-  height: 100px;
+h2{
+  font-size: 36px;
 }
 
-.oferta-1 {
-  background: linear-gradient(135deg, #2563eb, #7c3aed);
-}
-.oferta-2 {
-  background: linear-gradient(135deg, #16a34a, #0891b2);
-}
-.oferta-3 {
-  background: linear-gradient(135deg, #f59e0b, #ef4444);
+.ofertas img{
+  height: 120px;
+  width: 120px;
+  margin-left: 70px;
 }
 
-.ofertas article h3 {
-  font-size: 16px;
+.ofertas article h3{
+  font-size: 20px;
   padding: 14px 16px 4px 16px;
+  margin-left: 50px;
 }
 
 .ofertas article p {
@@ -234,11 +231,4 @@ main{
 
 #radio4:checked ~ .naveg-auto .auto-btn4{
   background-color: black;
-}
-
-/*Ofertas*/
-.ofertas img{
-  width: 128px;
-  height: 128px;
-  margin-left: 50px;
 }
